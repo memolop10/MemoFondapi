@@ -1,0 +1,28 @@
+{
+  "name": "memofondapi",
+  "version": "1.0.0",
+  "description": "fondapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memolop10/MemoFondapi.git"
+  },
+  "keywords": [
+    "mongoose",
+    "node",
+    "express"
+  ],
+  "author": "memolop10",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/memolop10/MemoFondapi/issues"
+  },
+  "homepage": "https://github.com/memolop10/MemoFondapi#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12"
+  }
+}

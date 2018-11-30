@@ -6,7 +6,7 @@ async function get(){
 }
 
 
-async function create(dishData){
+async function create(dishData){    
 
     //sacando dish de dishdata
     //const { name } = dishData
@@ -28,6 +28,7 @@ async function create(dishData){
 }
 
     async function del (id){
+        //exec ejecuta 
        return Dish.findByIdAndDelete(id).exec()
     }
 

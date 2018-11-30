@@ -3,6 +3,7 @@ const express = require('express')
 const router = express.Router()
 
 const dish = require('../usecases/dishes')
+const auth = require('../middlewares/auth')
 
 router.get('/',async(req,res) =>{
     const dishes = await dish.get()
@@ -17,7 +18,7 @@ router.get('/',async(req,res) =>{
   })
 
                       //callback
-  router.post('/',async(req,res) =>{
+  router.post('/',auth ,async(req,res) =>{
 
       try{
           const dishData = req.body

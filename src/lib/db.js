@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const connect = () => new Promise((resolve, reject) => {
     //string de coneccion
-    mongoose.connect('mongodb://Rak:Kancerbero10@ds255403.mlab.com:55403/memodb',{
+    mongoose.connect('mongodb://DanielOE:Agilidad-2319@ds231643.mlab.com:31643/agilestudentsdb',{
         useNewUrlParser: true
     });
 
